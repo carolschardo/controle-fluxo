@@ -1,18 +1,36 @@
-## Getting Started
+# Projeto Controle de Fluxo 🔄
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto foi desenvolvido como parte do Bootcamp **Java Cloud Native** da DIO (Digital Innovation One).  
+Aqui foram exploradas estruturas condicionais (`if`, `else if`, `else`) para simular cenários reais usando Java.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+### 📌 Descrição
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O projeto contém dois exercícios com foco em controle de fluxo:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **`CaixaEletronico.java`**  
+   Simula uma tentativa de saque em caixa eletrônico, validando se há saldo suficiente para realizar a operação.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2. **`ResultadoEscolar.java`**  
+   Simula a avaliação de uma nota escolar, classificando como **Aprovado**, **Recuperação** ou **Reprovado**, com base na nota informada.
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 💻 Tecnologias utilizadas
+
+- Java 21  
+- VS Code  
+- Git e GitHub  
+
+---
+
+### ✅ Exemplos de saída
+
+#### 💵 `CaixaEletronico.java`
+
+```bash
+Saldo inicial: 25.0  
+Valor solicitado: 26.0  
+Saída:  
+25.0
